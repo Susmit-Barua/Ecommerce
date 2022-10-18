@@ -5,7 +5,7 @@
   },
   "api": {
     "projectId": "211ye2cw",
-    "dataset": "ecommerce"
+    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
@@ -15,9 +15,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
