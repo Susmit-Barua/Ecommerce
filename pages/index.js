@@ -9,7 +9,7 @@ const Home = ({ products, bannerData }) => {
       {console.log(products)}
       <div>
         <h2 className="products-heading">Best selling products</h2>
-        <p>Speakers of many variations</p>
+        <p className="products-heading">Speakers of many variations</p>
       </div>
       <div className="products-container">
         {products?.map((product) => (
