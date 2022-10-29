@@ -6,7 +6,6 @@ const Home = ({ products, bannerData }) => {
   return (
     <>
       <HeroBanner heroBanner={bannerData[0]} />
-      {console.log(products)}
       <div>
         <h2 className="products-heading">Best selling products</h2>
         <p className="products-heading">Speakers of many variations</p>
